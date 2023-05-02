@@ -1,4 +1,4 @@
-/*⚠️ NO MODIFIQUES EL NOMBRE DE LAS DECLARACIONES ⚠️*/
+/* ⚠️ NO MODIFIQUES EL NOMBRE DE LAS DECLARACIONES ⚠️ */
 
 function crearGato(nombre, edad) {
   // Debes crear un nuevo objeto con las propiedades "nombre" y "edad".
@@ -7,7 +7,7 @@ function crearGato(nombre, edad) {
   // La propiedad "meow" será una función que retorne el string: "Meow!".
   // Retornar el objeto.
   // Tu código:
-  var gato = {
+  let gato = {
     nombre: nombre,
     edad: edad,
     meow: function () {
@@ -22,7 +22,7 @@ function nuevoUsuario(nombre, email, password) {
   // Este debe tener las propiedades: "nombre", "email" y "password" con sus respectivos valores.
   // Retornar el objeto.
   // Tu código:
-  var usuario = {
+  let usuario = {
     nombre: nombre,
     email: email,
     password: password,
